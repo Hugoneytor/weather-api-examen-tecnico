@@ -1,0 +1,69 @@
+
+.lightText{
+  color: white;
+}
+
+.darkText{
+  color: black;
+}
+
+.lightBackground{
+  background-color: white;
+}
+
+.darkBackground{
+  background-color: black;
+}
+
+.city{
+  font-size: 32px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.country{
+  font-size: 20px;
+  text-align: center;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.image{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.border{
+  border-radius: 50px;
+}
+
+.condition{
+  font-size: 24px;
+}
+.current{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.lastInfo{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.mainInfo {
+  padding: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 700px){
+  .mainInfo {
+    padding: 40px;
+  }
+}
+
