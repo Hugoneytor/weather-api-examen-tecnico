@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react';
 import WeatherForm from "./WeatherForm";
 import WeatherMainInfo from "./WeatherMainInfo";
 import Loading from "./Loading";
-import "../styles/weatherApp.css";
 import { loadInfo } from '../helpers/loadInfo';
+import "../styles/weatherApp.css";
 
 //Definition of interfaces
 // Structure of the API information
